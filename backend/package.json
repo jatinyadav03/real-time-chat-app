@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb-memory-server": "^11.1.0",
+    "mongoose": "^9.6.1",
+    "socket.io": "^4.8.3"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

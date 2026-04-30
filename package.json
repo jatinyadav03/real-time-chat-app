@@ -1,0 +1,16 @@
+{
+  "name": "real-time-chat-application",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:backend": "npm run start --workspace backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
