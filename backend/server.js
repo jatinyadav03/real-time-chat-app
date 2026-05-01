@@ -14,7 +14,8 @@ dotenv.config();
 const app = express();
 const server = http.createServer(app);
 const PORT = process.env.PORT || 5000;
-const CLIENT_URL = process.env.CLIENT_URL || "https://your-frontend-domain.vercel.app";
+const CLIENT_URL =
+  process.env.CLIENT_URL || "https://real-time-chat-app-frontend-blush.vercel.app";
 const allowedOrigins = CLIENT_URL.split(",").map((origin) => origin.trim());
 
 app.use(
