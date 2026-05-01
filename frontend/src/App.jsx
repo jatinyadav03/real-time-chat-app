@@ -15,7 +15,7 @@ function App() {
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
-    const socket = io("https://chat-app-backend-xyz.onrender.com", {
+    const socket = io("https://your-real-render-link.onrender.com", {
       autoConnect: true,
     });
     socketRef.current = socket;
